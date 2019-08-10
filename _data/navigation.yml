@@ -1,8 +1,10 @@
-- name: AI
-  link: /blog/
-- name: hardward
-  link: /about/
-- name: robot
-  link: /contact/
-- name: transpot
+- name: AI创輔
+  link: /AI/
+- name: 智能硬件
+  link: /hardward/
+- name: 智能机械人
+  link: /AIrobot/
+- name: 智能交通
+  link: /transpot/
+- name: 聯系我們 
   link: /contact/
