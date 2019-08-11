@@ -1,5 +1,5 @@
 ---
-title: transpot
+title: 联系我们
 description: Send us a message to find out more!
 map:
   latitude: -45.8787605
@@ -40,8 +40,16 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<h3>Address</h3>
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
-			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<h3>招生咨詢</h3>
+			<pre class="editable">
+			林老師
+			联系电话:6279 0118
+			电郵:<a href="mailto:lxmeng@tsinghua.edu.cn">lxmeng@tsinghua.edu.cn</a>
+
+			王老師
+			联系电话:6277 2357
+			电郵:<a href="mailto:wangxu2018@tsinghua.edu.cn">wangxu2018@tsinghua.edu.cn</a>
+			</pre>
 		</div>
 	</div>
 </section>
@@ -78,3 +86,9 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 	}
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+
+<div class="entry">
+        <h4>地址：北京市海淀区清华大学，李兆基科技大楼B区，邮编100084。</h4>
+<h4>百度动态地图</h4>
+<p><iframe src="http://www.icenter.tsinghua.edu.cn/icenter/baidu_map.html" width="100%"  height="560" frameborder="0" scrolling="no"></iframe></p>
+	  </div>
