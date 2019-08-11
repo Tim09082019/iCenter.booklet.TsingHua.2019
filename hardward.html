@@ -1,29 +1,81 @@
 ---
-title: hardward
-description: We've built an amazing team of developers, marketers, designers and sales people.
-image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
+title: Home
+description: The latest app to help you find new friends with common interests.
+image: https://source.unsplash.com/j5LSbCqB1wA/2000x1322?a=.png
+bottom_image: https://unsplash.it/2000/1322?a=.png
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Our Story</h1>
-			<p class="subtext editable">We have an extremely talented team whose sole goal is to bring you closer to the people around you.</p>
+			<h1 class="editable">智能硬件</h1>
+			<p class="subtext editable">更好的硬件 更好的产品</p>
+			<div class="cta button alt"><a href="#">Join Now</a></div>
 		</div>
 	</div>
+	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
-<section class="pad">
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+<div class="content">
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">我们是谁？</h2>
+				<p class="editable">iCenter智能系统实验室成立于2015年，是在移动互联网和智能终端的普及，“智能硬件”在新生态的大背景下应运而生。实验室拥有提供计算资源的数据机房，以及承担智能硬件技创辅修专业教学的智能硬件教室。
+					其中智能硬件教室坐落于李兆基科技大楼B座B558教室，教室面积约120平方米，实验室除了日常的教学，非常愿意为学校里的同学提供智能硬件资源，有兴趣的同学可以通过联系实验室的老师来借用需要的智能硬件。</p>
+
+				<p class="editable">SaturnLab面向计算机网络、大数据管理和智能系统。实验室团队包括专职工程师、博士、硕士研究生和本科生同学。实验室负责互联网创新平台建设，包括数据中心和智能硬件库等。科研成果包括论文112篇，SCI收录18篇，EI收录82篇。已获专利10项，编着5本。获得国家973计划、863计划、自然科学基金资助等。合作企业包括:百度公司，华为公司，中国联通，微软公司，英特尔公司，NEC日电，日立公司等。</p>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">课程内容</h2>
+				<p class="editable">以互联网连接的物理硬件系统和以云计算大数据为基础的人工智能技术，成为新的技术发展浪潮，并催生了“智能硬件”的新生态。
+						课程主要以实践与演示为主，辅以概念讲解，动手操作实践，完成具有“智能”(能看、能听、能交互)的嵌入式硬件平台，包括语音处理，机器视觉处理等。</p>
+				
+				<h2 class="editable">教学资源</h2>
+				<p class="editable">选课同学可获得以下资源：</p>
+						<p class="editable">(1)微软Azure云服务账号和清华工业云；</p>
+						<p class="editable">(2)英伟达TX1/TK1嵌入式硬件一套；</p>
+						<p class="editable">(3)树莓派系统一套；</p>
+						<p class="editable">(4)华为Android平板一台，用于智能APP设计课程；</p>
+						<p class="editable">(5)微软、腾讯、百度、谷歌等公司的一流工程师现场指导；</p>
+						<p class="editable">(6)与智能硬件配套使用的PaaS云平台账号。</p>
+				
+				<h2 class="editable">课程导师</h2>
+				<div class="image">
+						<img class="editable" src="/images/hardward-intro" alt="Screenshot" />
+					</div>
+			
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">項目案例</h2>
+				<p class="editable">案例一：便携式呼吸检测装置与移动平台Android应用程序的开发</p>
+				<p class="editable">目前生活中独居老人由于心脏骤停或突发疾病导致死亡的例子越来越多，为减少这一类悲剧的发生，本产品基于高灵敏度的微纳传感器设计了可穿戴式的呼吸监测器，并实现在移动端实时数据的显示和多手机的同步监测，目前已实现的工作包括通过微纳传感器实现呼吸频次及深度的检测，并可在移动端设备上实时观察到呼吸曲线，从而得到身体状况</p>
+				<p class="editable">案例二：一种双电源供电智能普适化勘探机器人</p>
+				<p class="editable">基于开源平台，自主研发支持多装置装配和二次开发的双电源供电普适化勘探机器人。可搭载不同载体及多种传感器设备，应用于不同领域。
+						现阶段已完成四项基础功能模块的研发和拓展功能的算法仿真及方案设计。</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+		<div class="inner-hero text-container">
+			<div class="hero-text-container">
+				<h2 class="editable">把梦想变成现实</h2>
+				<p class="subtext editable">拿起通往梦想大門的鎖匙</p>
+				<div class="cta button alt"><a href="#">Join Now</a></div>
+			</div>
+		</div>
+	</section>
+</div>
